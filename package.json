@@ -1,0 +1,33 @@
+{
+  "name": "oumabot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/main.js",
+  "scripts": {
+    "start": "tsc && node build/src/index.js",
+    "build": "tsc",
+    "dev": "tsc -w",
+    "ndev": "nodemon build/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aa-proj/OumaBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aa-proj/OumaBot/issues"
+  },
+  "homepage": "https://github.com/aa-proj/OumaBot#readme",
+  "dependencies": {
+    "axios": "^1.1.3",
+    "discord.js": "^14.6.0",
+    "sqlite3": "^5.1.2",
+    "typeorm": "^0.3.10",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.7"
+  }
+}
